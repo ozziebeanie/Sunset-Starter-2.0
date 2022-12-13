@@ -9,7 +9,7 @@ bot = commands.Bot(
     activity=discord.Streaming(
         name="s!help or r!help", url="https://www.twitch.tv/ozziebeanie2"
     ),
-  
+
 )
 bot.remove_command("help")
 bot.author_id = 1006316083638190101  # Change to your discord id!!!
